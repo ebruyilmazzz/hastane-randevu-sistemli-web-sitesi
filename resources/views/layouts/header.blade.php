@@ -10,8 +10,13 @@
                         </form>
                     </p>
                 @else
+<<<<<<< HEAD
                 <p><a href="{{ route('login') }}">Giriş Yap</a> / <a href="{{ route('register') }}">Üye Ol</a></p> 
                  @endauth
+=======
+                    <p><a href="{{ route('login') }}">Giriş Yap</a> / <a href="{{ route('register') }}">Üye Ol</a></p>
+                @endauth
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
             </div>
             <div class="col-md-8 col-sm-7 text-align-right">
                 <span class="phone-icon"><i class="fa fa-phone"></i> (505)685 55 88</span>
@@ -37,6 +42,7 @@
         <!-- MENU LINKS -->
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
                 <li><a href="{{ route('home') }}">Anasayfa</a></li>
                 @if(Route::currentRouteName() == 'home')
                     <li><a href="#about" class="smoothScroll">Hakkımızda</a></li>
@@ -46,6 +52,12 @@
                     <li><a href="{{ route('home') }}#team">Doktorlarımız</a></li>
                     <li><a href="{{ route('home') }}#footer">İletişim</a></li>
                 @endif
+=======
+                <li><a href="{{ route('home') }}" class="smoothScroll">Anasayfa</a></li>
+                <li><a href="{{ route('home') }}#about" class="smoothScroll">Hakkımızda</a></li>
+                <li><a href="{{ route('home') }}#team" class="smoothScroll">Doktorlarımız</a></li>
+                <li><a href="{{ route('home') }}#footer" class="smoothScroll">İletişim</a></li>
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
                 <li class="appointment-btn"><a href="{{ route('appointment.create') }}">Randevu Al</a></li>
             </ul>
         </div>

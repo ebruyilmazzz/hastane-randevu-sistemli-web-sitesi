@@ -8,10 +8,16 @@ class ContactController extends Controller
 {
     public function index()
     {
+<<<<<<< HEAD
         $email = config('mail.from.address'); // veya direkt 'iletisim@gmail.com'
         return view('iletisim', compact('email'));
     }
     
+=======
+        return view('iletisim.contact');
+    }
+
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
     public function store(Request $request)
     {
         $validated = $request->validate([

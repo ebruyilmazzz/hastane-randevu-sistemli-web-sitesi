@@ -10,14 +10,22 @@ class UpdateRandevusTableAddNullableTelefon extends Migration
 {
     public function up()
     {
+<<<<<<< HEAD
         Schema::table('randevular', function (Blueprint $table) {
+=======
+        Schema::table('randevus', function (Blueprint $table) {
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
             $table->string('telefon')->nullable()->change(); // telefon alanını nullable yapıyoruz
         });
     }
 
     public function down()
     {
+<<<<<<< HEAD
         Schema::table('randevular', function (Blueprint $table) {
+=======
+        Schema::table('randevus', function (Blueprint $table) {
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
             $table->string('telefon')->nullable(false)->change(); // geri almak için nullable'dan çıkarıyoruz
         });
     }

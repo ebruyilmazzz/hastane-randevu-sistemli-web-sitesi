@@ -11,7 +11,11 @@ class AuthController extends Controller
 {
     public function __construct()
     {
+<<<<<<< HEAD
         $this->middleware('guest')->except(['logout']);
+=======
+        $this->middleware('guest')->except('logout');
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
     }
 
     // Giriş Sayfasını Göster
@@ -30,9 +34,13 @@ class AuthController extends Controller
 
         if (Auth::attempt($credentials, $request->filled('remember'))) {
             $request->session()->regenerate();
+<<<<<<< HEAD
             
             // Direkt olarak randevu sayfasına yönlendir
             return redirect('/appointment')->with('success', 'Başarıyla giriş yaptınız!');
+=======
+            return redirect()->route('appointment.index')->with('success', 'Başarıyla giriş yaptınız!');
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
         }
 
         return back()->withErrors([
@@ -46,7 +54,11 @@ class AuthController extends Controller
         Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
+<<<<<<< HEAD
         return redirect('/')->with('success', 'Başarıyla çıkış yaptınız.');
+=======
+        return redirect()->route('home')->with('success', 'Başarıyla çıkış yaptınız.');
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
     }
 
     // Kayıt Sayfasını Göster
@@ -54,7 +66,10 @@ class AuthController extends Controller
     {
         return view('auth.register');
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
 
     // Yeni Kullanıcı Kaydı
     public function register(Request $request)
@@ -73,14 +88,22 @@ class AuthController extends Controller
             'password.confirmed' => 'Şifreler eşleşmiyor.',
         ]);
 
+<<<<<<< HEAD
         $user = User::create([
+=======
+        User::create([
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
 
+<<<<<<< HEAD
         Auth::login($user);
         // Direkt olarak randevu sayfasına yönlendir
         return redirect('/appointment')->with('success', 'Kayıt başarılı! Hoş geldiniz.');
+=======
+        return redirect()->route('login')->with('success', 'Kayıt başarılı! Şimdi giriş yapabilirsiniz.');
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
     }
 }

@@ -781,7 +781,11 @@ http://www.tooplate.com/view/2098-health
   }
 
   #appointment button#cf-submit {
+<<<<<<< HEAD
     background: #530a12;
+=======
+    background: #941522;
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
     color: #ffffff;
     font-weight: 600;
     height: 55px;

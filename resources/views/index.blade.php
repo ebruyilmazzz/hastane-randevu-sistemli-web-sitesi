@@ -65,13 +65,23 @@
                <div class="row">
 
                     <div class="col-md-4 col-sm-5">
+<<<<<<< HEAD
                     <p><a href="/yonetim">Giriş Yap</a> / <a href="{{ route('register') }}">Üye Ol</a></p>                    </div>
+=======
+                         <p><a href="yonetim/">Giriş Yap</a> / <a href="yonetim/kayitol.php">Üye Ol</a></p>
+                    </div>
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
                          
                     <div class="col-md-8 col-sm-7 text-align-right">
                          <span class="phone-icon"><i class="fa fa-phone"></i> (505)685 55 88</span>
                          <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 8:00 - 18:00 (Pzt-Cum)</span>
+<<<<<<< HEAD
                          <a href="https://mail.google.com/mail/?view=cm&to={{ config('mail.from.address') }}">E-Posta Gönder</a>
                          </div>
+=======
+                         <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="#">iletisim@gmail.com</a></span>
+                    </div>
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
 
                </div>
           </div>
@@ -99,8 +109,13 @@
                          <li><a href="{{ route('home') }}" class="smoothScroll">Anasayfa</a></li>
                          <li><a href="#about" class="smoothScroll">Hakkımızda</a></li>
                          <li><a href="#team" class="smoothScroll">Doktorlarımız</a></li>
+<<<<<<< HEAD
                          <li class="appointment-btn"><a href="{{ route('appointment.index') }}">Randevu Al</a></li>
                          <li><a href="{{ route('admin.login') }}" class="smoothScroll">PANEL</a></li>
+=======
+                         <li><a href="#footer" class="smoothScroll">İletişim</a></li>
+                         <li class="appointment-btn"><a href="#appointment">Randevu Al</a></li>
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
                     </ul>
                </div>
 
@@ -150,6 +165,7 @@
      </section>
 
 
+<<<<<<< HEAD
     <!-- ABOUT -->
 <section id="about">
     <div class="container">
@@ -218,6 +234,33 @@
         </div>
     </div>
 </section>
+=======
+     <!-- ABOUT -->
+     <section id="about">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-6">
+                         <div class="about-info">
+                              <h2 class="wow fadeInUp" data-wow-delay="0.6s"><i class="fa fa-stethoscope"></i> YILMAZ HASTANESİne Hoş Geldiniz </h2><!--<i class="fa fa-heartbeat">-->
+                              <div class="wow fadeInUp" data-wow-delay="0.8s">
+                                   <p>Hastanenemiz 2020 Tarihinde kurulmuş olup hedefimiz daima hastalarımızın sağlığığla en güzel şekilde ilgilenmektir.</p>
+                              </div>
+                              <figure class="profile wow fadeInUp" data-wow-delay="1s">
+                                   <img src="images/author-image.jpg" class="img-responsive" alt="">
+                                   <figcaption>
+                                        <h3>Dr. Mehmet Yılmaz</h3>
+                                        <p>Genel Müdür</p>
+                                   </figcaption>
+                              </figure>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
 
      <!-- TEAM -->
      <section id="team" data-stellar-background-ratio="1">
@@ -238,7 +281,11 @@
 
                                    <div class="team-info">
                                         <h3>Dr. Reyhan Yılmaz</h3>
+<<<<<<< HEAD
                                         <p>Dahiliye</p>
+=======
+                                        <p>Genel Cerrahi</p>
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
                                         <div class="team-contact-info">
                                              <p><i class="fa fa-phone"></i> 123</p>
                                              <p><i class="fa fa-envelope-o"></i> <a href="#">reyhanyilmaz@hotmail.com</a></p>
@@ -258,7 +305,11 @@
 
                                    <div class="team-info">
                                         <h3>Dr. Emine Özdemir</h3>
+<<<<<<< HEAD
                                         <p>Kadın Doğum Uzamanı</p>
+=======
+                                        <p>Diyetisyen</p>
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
                                         <div class="team-contact-info">
                                              <p><i class="fa fa-phone"></i> 321</p>
                                              <p><i class="fa fa-envelope-o"></i> <a href="#">emineozdemir@hotmail.com</a></p>
@@ -269,6 +320,7 @@
                                              <li><a href="#" class="fa fa-flickr"></a></li>
                                         </ul>
                                    </div>
+<<<<<<< HEAD
                          </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
@@ -291,6 +343,12 @@
 
                          </div>
                     </div>
+=======
+
+                         </div>
+                    </div>
+
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
                     <div class="col-md-4 col-sm-6">
                          <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
                               <img src="images/team-image3.jpg" class="img-responsive" alt="">
@@ -307,6 +365,7 @@
                                              <li><a href="#" class="fa fa-envelope-o"></a></li>
                                         </ul>
                                    </div>
+<<<<<<< HEAD
                          </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
@@ -397,6 +456,9 @@
                                              <li><a href="#" class="fa fa-envelope-o"></a></li>
                                         </ul>
                                    </div>
+=======
+
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
                          </div>
                     </div>
                     
@@ -455,7 +517,11 @@
                                    <div class="author">
                                         <img src="images/author-image.jpg" class="img-responsive" alt="">
                                         <div class="author-info">
+<<<<<<< HEAD
                                              <h5>Yazar Dr. Mehmet Fişek</h5>
+=======
+                                             <h5>Yazar Dr. Emine Özdemir</h5>
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
                                              <p>Diyetisyen</p>
                                         </div>
                                    </div>
@@ -476,7 +542,11 @@
                                    <div class="author">
                                         <img src="images/author-image.jpg" class="img-responsive" alt="">
                                         <div class="author-info">
+<<<<<<< HEAD
                                              <h5>Yazar Dr. Hilal Sakallı</h5>
+=======
+                                             <h5>Yazar Dr. Reyhan Özdemir</h5>
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
                                              <p>Genel Cerrahi</p>
                                         </div>
                                    </div>
@@ -531,8 +601,13 @@
 
                               <div class="contact-info">
                                    <p><i class="fa fa-phone"></i>(505)685 55 88</p>
+<<<<<<< HEAD
                                    <a href="https://mail.google.com/mail/?view=cm&to={{ config('mail.from.address') }}">E-Posta Gönder</a>
                                    </div>
+=======
+                                   <p><i class="fa fa-envelope-o"></i> <a href="#">iletisim@gmail.com</a></p>
+                              </div>
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
                          </div>
                     </div>
 

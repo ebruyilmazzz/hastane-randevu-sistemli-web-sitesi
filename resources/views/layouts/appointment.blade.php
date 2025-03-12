@@ -80,8 +80,13 @@
 <style>
     #appointment {
         padding: 100px 0;
+<<<<<<< HEAD
         background: #941522;
         }
+=======
+        background: #f9f9f9;
+    }
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
 
     .form-group {
         margin-bottom: 20px;
@@ -97,7 +102,11 @@
     }
 
     button[type="submit"] {
+<<<<<<< HEAD
         background: #941522;
+=======
+        background: #a5c422;
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
         color: white;
         padding: 12px;
         border: none;
@@ -107,8 +116,13 @@
     }
 
     button[type="submit"]:hover {
+<<<<<<< HEAD
         background: #941522;
         }
+=======
+        background: #88a41b;
+    }
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
 
     label {
         font-weight: bold;

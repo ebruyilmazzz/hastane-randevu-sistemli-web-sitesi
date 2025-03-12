@@ -19,7 +19,11 @@
                             </div>
                         @endif
 
+<<<<<<< HEAD
                         <form method="POST" action="{{ route('register.post') }}">
+=======
+                        <form method="POST" action="{{ route('register') }}">
+>>>>>>> a57f353ab16e83b094a28709e76e5e74f00cc4be
                             @csrf
                             <div class="form-group mb-3">
                                 <label for="name">Ad Soyad</label>
