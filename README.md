@@ -1,9 +1,13 @@
 # hastane-randevu-sistemli-web-sitesi
 1-Projeyi klonlayın
+<br>
 2-Bağımlılıkları Yükleyin
+<br>
  Composer Install
- 3-Uygulamayı Çalıştırın
- Php artisan serve
+ 3-Uygulamayı Çalıştırın<br>
+ Php artisan serve<br>
+ ## Katkıda Bulunma
+Pull request'ler ve öneriler memnuniyetle karşılanır. Lütfen önce bir issue açınız.
 
 ![image](https://github.com/user-attachments/assets/58c44362-144c-436c-b63d-9040b72128e3)
 
